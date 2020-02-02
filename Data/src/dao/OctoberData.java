@@ -1,4 +1,4 @@
-package OctoberData;
+package dao;
 
 public class OctoberData {
 }

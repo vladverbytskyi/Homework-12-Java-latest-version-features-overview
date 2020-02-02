@@ -1,5 +1,5 @@
 module Data {
-    exports aprilData;
-    exports marchData;
+    exports controller;
+    exports service;
     requires DataCleaningCode;
 }
