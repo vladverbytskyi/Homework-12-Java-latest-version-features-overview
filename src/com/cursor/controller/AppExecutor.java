@@ -1,10 +1,12 @@
-package com.cursor.hw12.controller;
+package com.cursor.controller;
 
-import com.cursor.hw12.task1.LFUCache;
-import com.cursor.hw12.task1.News;
+
+import com.cursor.task1.LFUCache;
+import com.cursor.task1.News;
 
 public class AppExecutor {
-    LFUCache cache = new LFUCache(5);
+    private static final int CAPASITY_FOR_CACHE = 5;
+    LFUCache cache = new LFUCache(CAPASITY_FOR_CACHE);
     News news = new News();
 
     public void runProgram() {

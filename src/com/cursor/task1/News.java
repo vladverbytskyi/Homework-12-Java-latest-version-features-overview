@@ -1,4 +1,4 @@
-package com.cursor.hw12.task1;
+package com.cursor.task1;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,7 @@
-package com.cursor.hw12;
+package com.cursor;
 
-import com.cursor.hw12.controller.AppExecutor;
+
+import com.cursor.controller.AppExecutor;
 
 public class Main {
     public static void main(String[] args) {

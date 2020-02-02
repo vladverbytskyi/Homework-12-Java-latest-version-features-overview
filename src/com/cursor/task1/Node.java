@@ -1,11 +1,11 @@
-package com.cursor.hw12.task1;
+package com.cursor.task1;
 
 public class Node {
-    long key;
-    String news;
-    int frequency;
-    Node prev;
-    Node next;
+    protected long key;
+    protected String news;
+    public int frequency;
+    protected Node prev;
+    protected Node next;
 
     public Node(long key, String news, int frequency){
         this.key   = key;
